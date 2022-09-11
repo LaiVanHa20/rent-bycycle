@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LuuTramXe">
+
+    <EditText
+        android:id="@+id/edt_matram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ma tram xe"/>
+    <EditText
+        android:id="@+id/edt_diachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dia chi"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_save_tramxe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
+</LinearLayout>

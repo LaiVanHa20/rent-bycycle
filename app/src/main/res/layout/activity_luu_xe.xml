@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LuuTramXe">
+
+    <EditText
+        android:id="@+id/edt_maxe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ma xe"/>
+    <EditText
+        android:id="@+id/edt_matram2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ma tram xe"/>
+    <EditText
+        android:id="@+id/edt_giaxe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="gia thue"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_save_xe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
+</LinearLayout>

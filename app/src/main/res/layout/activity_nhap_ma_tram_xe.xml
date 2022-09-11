@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NhapMaXe">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="Nhập mã trạm xe"/>
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/ic_more_vert"/>
+    </androidx.appcompat.widget.Toolbar>
+    <EditText
+        android:id="@+id/edt_nhapmatram"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nhập mã trạm xe"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_xacnhan"
+        android:layout_width="300dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue_bg"
+        android:layout_gravity="center_horizontal"
+        android:text="Xác nhận"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanner_view"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lnquetmatram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_border_bg"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_scanner"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quét mã"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:textSize="13dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

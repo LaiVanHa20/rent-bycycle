@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "707637532032",
+    "firebase_url": "https://thuexe-ccd39-default-rtdb.firebaseio.com",
+    "project_id": "thuexe-ccd39",
+    "storage_bucket": "thuexe-ccd39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707637532032:android:6c7f7dd02e0094eef95d65",
+        "android_client_info": {
+          "package_name": "com.example.khanh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707637532032-nsfcub1itleovonged5lks6t5rc412au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC59ybI5G9iVdOAmkbe_1c3tXKEb0VivB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707637532032-nsfcub1itleovonged5lks6t5rc412au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707637532032:android:1f3f789fe9e815cff95d65",
+        "android_client_info": {
+          "package_name": "com.example.loginandregistrationapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707637532032-n0oah4bps1lmjcfhicol9karqakpfv4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginandregistrationapplication",
+            "certificate_hash": "ecef0e6797febd89601256e487b3cdee53f16b5d"
+          }
+        },
+        {
+          "client_id": "707637532032-nsfcub1itleovonged5lks6t5rc412au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC59ybI5G9iVdOAmkbe_1c3tXKEb0VivB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707637532032-nsfcub1itleovonged5lks6t5rc412au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
